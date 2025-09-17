@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1200px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        background-color: white;
+        width: 45vw;
+        height: 55vh;
+        border-radius: 3rem;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .result{
+        width: 50%;
+        height: 100%;
+        border-radius: 3rem;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+
+    .info{
+        background-color: white;
+        gap: 1.5rem;
+    }
+
+    .reaction{
+        height: 5rem;
+        width: 30rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .memory{
+        height: 5rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .verbal{
+        height: 5rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .visual{
+        height: 5rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

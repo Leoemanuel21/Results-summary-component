@@ -155,11 +155,16 @@ img{
     color: rgba(0, 0, 0, 0.603);
 }
 
-
+.button{
+    background-color: var(--Dark-gray-blue);
+    color: var(--White);
+    padding: 1.5rem 0rem;
+    border-radius: 3rem;
+}
 
 footer{
     text-align: center;
     text-decoration: none;
-    color: var(--White);
+    color: black;
     font-weight: 300;
 }
