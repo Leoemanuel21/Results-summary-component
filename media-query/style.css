@@ -28,15 +28,31 @@
         justify-content: space-around;
     }
 
-    .info{
-        background-color: white;
-        gap: 1.5rem;
+    .result h1{
+        font-size: 3rem;
     }
 
-    .reaction{
+    .circle p{
+        color: var(--White);
+        font-size: 6rem;
+        font-weight: 800;
+    }
+
+    .info{
+        background-color: white;
+        border-radius: 3rem;
+        width: 50%;
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .info h2{
+        color: hsl(224, 30%, 27%);
+    }
+
+    .category{
         height: 5rem;
-        width: 30rem;
-        margin-left: 1rem;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;

@@ -84,7 +84,7 @@ main{
 
 .result h1{
     color: var(--White);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2rem;
 }
 
@@ -95,13 +95,14 @@ main{
 
 .info{
     background-color: var(--Pale-blue);
-    padding: 2rem;
+    width: 100%;
+    padding: 1rem;
     display: flex;
     flex-flow: column nowrap;
     gap: 3rem;
 }
 
-.reaction{
+.category{
     background-color: #FFF6F7;
     color: var(--Light-red);
     height: 5rem;
@@ -109,49 +110,20 @@ main{
     border-radius: 1rem;
     display: flex;
     align-items: center;
-}
-
-.memory{
-    background-color: #FFF6F7;
-    color: var(--Orangey-yellow);
-    height: 5rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-}
-
-.verbal{
-    background-color: #FFF6F7;
-    color: var(--Green-teal);
-    height: 5rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-}
-
-.visual{
-    background-color: #FFF6F7;
-    color: var(--Dark-gray-blue);
-    height: 5rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 img{
     padding-right: 1rem;
 }
 
-.num{
+.score{
     width: 100%;
     text-align: right;
     color: black;
 }
 
-.num span{
+.score span{
     color: rgba(0, 0, 0, 0.603);
 }
 
@@ -160,6 +132,11 @@ img{
     color: var(--White);
     padding: 1.5rem 0rem;
     border-radius: 3rem;
+    border: none;
+}
+
+.button:hover{
+    background-image: linear-gradient(to bottom, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
 }
 
 footer{
